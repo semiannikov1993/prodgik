@@ -3,36 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson 1</title>
+    <meta="viewport" content="width=device-width, initial-scale=1.0">\
+    <link rel="stylesheet" href="public/style.css">
+    <title>Leo - main page </title>
 </head>
 <body>
-    <style>
-        p {
-            color: blueviolet;
-        }
-    </style> 
-    <section>
-        <h1>Заголовок главный</h1>
-<p>Это описание к заголовку нашей <a href="http://ya.ru">компании</a></p>
+   <header class="header-section">
+    <nav class="header-navigation">
+        <a href="#" class="header-logo-link">
+        <img src="public/img/logo.png" class="header-logo-img" alt="logo">
+    </a>
+    <ul class="header-buttons-list">
+        <li class="nav-item"><a href="" class="nav-link">solution</a></li>
+        <li class="nav-item"><a href="" class="nav-link">producs</a></li>
+        <li class="nav-item"><a href="" class="nav-link">podorozhnik</a></li>
+        <li class="nav-item"><a href="" class="nav-link">parodoks</a></li>
 
-    </section>
-    <section>
-        <h2 style="font-size: 16px;">Наши услуги</h2>
-        <ol>
-            <li><a href="#">detailing</a></li>
-            <li><a href="#">cleaning</a></li>
-            <li><a href="#">пылисосинг</a></li>
-            <li><a href="#">уберайтунг</a></li> 
+    </ul>
+    </nav>
+    <div class="main-offer d-flex">
+        <div class="offer-image">
+        <img src="public/img/calc.png" alt="offer-image">
 
+        </div class="offer-detalils">
+        <h1 class="offer-titli-span">
+            Introducing <br>
+            <span class="offer-title-span">
+                Something hot... 
+                 </span>
 
-        </ol>
-    </section>
-    <footer>
-        <div class="footer-container">
-            <p>Здесь будет подвал </p>
-        </div>
-    </footer>
+        </h1>
+<button class="offer-try">
+    try demo
+    <div>
+    </div>
 
+   </header>
 </body>
 </html>
