@@ -1,0 +1,54 @@
+.header-logo-img {
+width: 50px;
+height: 50px;
+}
+.offer-image {
+    width: auto;
+    height: 200px;
+}
+.d-flex {
+   display: flex;
+}
+/* styles */
+.bg {
+    top: 0px;
+    left: 0px;
+    z-index: -1px;
+    width: 100%;
+    
+    width: blur (3px) grayscale (30%)
+}
+.main-offer {
+    justify-content: center;
+}
+.header-section {
+    background: url("img/bg.jpg") 100% / cover ;
+}
+
+.header-logo-img{
+    width: 36px;
+    height: 36px;
+}
+.offer-image {
+    width: auto;
+    height: 200px;
+}
+.offer-titl {
+    color: aliceblue;
+    
+}
+.header-navigation {
+    color: aliceblue;
+}
+.header-buttons-list {
+display: flex;
+list-style-type: none;
+}
+.nav-item {
+padding-right: 10px;
+}
+.nav-link {
+
+text-decoration: none !important;
+color: white;
+}
